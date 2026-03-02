@@ -1,0 +1,13 @@
+replicaCount: 2
+
+service:
+  type: ClusterIP
+
+ingress:
+  enabled: true
+  className: traefik
+  hosts:
+    - host: demo.local
+      paths:
+        - path: /
+          pathType: Prefix

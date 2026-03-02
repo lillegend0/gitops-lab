@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: git@github.com:lillegend0/https://github.com/lillegend0/DevOps-Production-Platform-k3s-GitOps-Observability.git
-    targetRevision: HEAD
+    targetRevision: main
     path: platform/apps
   destination:
     server: https://kubernetes.default.svc
